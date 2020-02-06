@@ -5,6 +5,7 @@ namespace Calculator.Tests
 {
     public class TestUsingFact
     {
+        // Facts are used when test requires no parameters. Really only useful to test methods without parameters, as it doesn't allow for variation.
         [Fact]
         public void Add()
         {
